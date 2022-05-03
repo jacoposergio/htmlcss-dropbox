@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 
     /* TEST  */
-    background-color: rgb(146, 191, 32);
+  
 }
 
 img{
@@ -48,17 +48,22 @@ a{
 
 /* \\\\\\\\\\\\\\\\\ HEADER \\\\\\\\\\\\\\\\\\  */
 
-header{
-    /* test  */
-    background-color: bisque;
+ /* TOP HEADER  */
 
-    height: 60px;
-    top: 0;
-    left: 0;
+header{
+    background-color: hsl(207deg 52% 81%);
+    position: relative;
+    top: -80px;
+}
+
+.top-header{
+    /* test  */
+    background-color: white;
     position: fixed;
+    height: 60px;
     width: 100%;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     z-index: 10;
 }
 
@@ -100,22 +105,13 @@ nav{
         margin: 0 10px;
     }
 
-/* \\\\\\\\\\\\\\\\\ END HEADER \\\\\\\\\\\\\\\\\  */
-
-/* ////////////////////  MAIN  ////////////////////// */
-
-main{
-    margin-top: 55px;
-}
-
-.jumbotron-background{
-
-    background-color: hsl(207deg 52% 81%);
-}
+/* JUMBOTRON ( BOTTOM HEADER)  */
 
 .jumbotron{
     margin-top: 140px;
+    padding-top: 8%;
 }
+
 
 h1{
     font-weight: 700px;
@@ -137,7 +133,6 @@ h1{
   .image-col img{
       position: relative;
       top: 50px;
-
   }
 
     .jumbotron-text{
@@ -160,7 +155,9 @@ h1{
 
 
 
+/* \\\\\\\\\\\\\\\\\ END HEADER \\\\\\\\\\\\\\\\\  */
 
+/* ////////////////////  MAIN  ////////////////////// */
 
 
 
