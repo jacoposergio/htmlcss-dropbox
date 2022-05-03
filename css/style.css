@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 
     /* TEST  */
-    background-color: aquamarine;
+    background-color: rgb(146, 191, 32);
 }
 
 img{
@@ -35,6 +35,15 @@ a{
     color: white;
     padding: 4px 13px;
     background-color: hsl(217deg 100% 50%);
+}
+
+.container-big{
+    width: 80%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
 }
 
 /* \\\\\\\\\\\\\\\\\ HEADER \\\\\\\\\\\\\\\\\\  */
@@ -91,18 +100,74 @@ nav{
         margin: 0 10px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* \\\\\\\\\\\\\\\\\ END HEADER \\\\\\\\\\\\\\\\\  */
+
+/* ////////////////////  MAIN  ////////////////////// */
+
+main{
+    margin-top: 55px;
+}
+
+.jumbotron-background{
+
+    background-color: hsl(207deg 52% 81%);
+}
+
+.jumbotron{
+    margin-top: 140px;
+}
+
+h1{
+    font-weight: 700px;
+    font-size: 60px;
+}
+
+.info-col{
+    width: calc((100% / 5)*2);
+    padding-right: 60px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.image-col{
+    width: calc((100% / 5)*3);
+}
+
+  .image-col img{
+      position: relative;
+      top: 50px;
+
+  }
+
+    .jumbotron-text{
+        margin-bottom: 20px;
+    }
+
+    .info-col .btn.small{
+        padding: 6px 15px;
+    }
+
+    .jumbotron-text-end{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .fas.fa-arrow-down{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////// END MAIN  ////////////////////// */
