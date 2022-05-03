@@ -26,11 +26,28 @@ a{
     color: black;
 }
 
+/* Buttons */
+.btn {
+    text-decoration: none;
+    display: inline-block;
+}
+.btn.small {
+    color: white;
+    padding: 4px 13px;
+    background-color: hsl(217deg 100% 50%);
+}
+
 /* \\\\\\\\\\\\\\\\\ HEADER \\\\\\\\\\\\\\\\\\  */
 
 header{
+    /* test  */
     background-color: bisque;
+
     height: 60px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 10;
