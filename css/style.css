@@ -437,6 +437,7 @@ h1{
        }        
 
        .brand-partner-inner-frame{
+           flex-wrap: wrap;
          width: 100%;
        }
 
@@ -446,8 +447,51 @@ h1{
            background-color: yellow;
            border: 1px dotted blue;
        }
+       
+       
+       .brand-square{
+        width: calc( 100% / 2 );
+        height: calc( 100% / 2 );
+        background-color: yellow;
+        border: 1px dotted blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .brand-square img{
+       width: 60%;
+       filter: invert(1);
+    }
+        .brand-square.designit{
+           background-color: #a2d39b;
+           border: 10px solid #d0e9cd;
+        }
 
+        .brand-square.arizona-state{
+            background-color: #61082b;
+         }
 
+            .brand-square.arizona-state img{
+                width: 45%;
+            }   
+
+         .brand-square.florida{
+            background-color: #0093ce;
+         }
+
+         .brand-square.florida img{
+            width: 45%;
+        }   
+
+         .brand-square.topps{
+            background-color: #ff1c1c;
+         }
+
+         .brand-square.topps img{
+            width: 45%;
+        }   
+       
 
 
 
