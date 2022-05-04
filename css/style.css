@@ -522,18 +522,19 @@ h1{
         
         .designit-quote img{
             width: 30%;
-            margin-top: 40px;
+            margin-top: 60px;
         }
             
         .designit-quote hr{
             width: 10%;
             margin-top: 20px;
+            margin-bottom: 30px;
         }
 
 
-
-
-
+        .sub-infotext.author{
+            margin-top: 30px;
+        }
 
 
    /* //////////////////// END MAIN  ////////////////////// */
