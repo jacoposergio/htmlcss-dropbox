@@ -59,6 +59,7 @@ i{
 .container-small{
     width: 70%;
     margin: auto;
+    background-color: rgb(232, 234, 229);
 }
 
 .card-container{
@@ -215,7 +216,7 @@ h1{
     padding-right: 15px;
 }
 
-.col {
+.subscription-card .col {
     width: calc( ( 100% / 3 ) - 40px );
     border: 1px solid lightgray;
     height: 800px;
@@ -296,6 +297,38 @@ h1{
   .card-container .fa-regular.fa-folder{
     font-size: 11px;
   }
+
+     /* END TIPI DI ABBONAMENTO  */
+
+     /* CONTATTA UFFICIO VENDITE  */
+
+     .sales-department-top{
+         margin-top: 20px;
+         border: 1px solid lightgray;
+         border-bottom: 0;
+     }
+
+     .sales-department-bottom {
+        background-color:yellow
+        width: 100%;
+        border: 1px solid lightgray;
+        height: 200px;
+     }
+
+     .col-enterprise{
+          width: calc((100%/4)*3);
+          border: 1px solid green;  
+     }
+    
+     .col-salesdep-button{
+        width: calc((100%/4)*1);
+        border: 1px solid green;  
+   }
+
+
+
+
+
 
 
 
