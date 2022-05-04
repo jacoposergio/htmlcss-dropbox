@@ -36,6 +36,11 @@ h4{
     font-size: 13px;
 }
 
+.sub-infotext{
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
 i{
     margin-right: 3px;
 }
@@ -241,11 +246,6 @@ h1{
     font-size: 12px;
 }
 
-.sub-infotext{
-    font-size: 11px;
-    margin-bottom: 20px;
-}
-
 .sub-infotext.thin{
     color: grey;
     margin-top: -15px;
@@ -383,8 +383,65 @@ h1{
     background-color: transparent;
     border: 1px solid black ;
     }
+ 
+    /* <!-- DROPBOX BUSINESS  -->  */
+
+   .all-business-card{
+        flex-wrap: wrap;
+    }
+
+    .business-card-frame{
+        width: calc( 100% / 3 );
+        padding-right: 30px;
+    }
+   
+   .dropbox-business{
+       margin-top: 80px;
+   }
+
+   .all-business-card{
+       margin-top: 30px;
+   }
+
+   .business-card .sub-infotext{
+       margin-top: 15px;
+       /* test  */
+       /* font-weight: 700; */
+   }
+
+        /* BRAND PARTNER  */
+    
+        .brand-partner-title{
+            margin-top: 150px;
+        }
+
+        .brand-partner-title a{
+            font-size: 12px;
+            text-decoration: underline;
+            color: #0000EE;
+        }
+
+        .all-brand-partner-card{
+            flex-wrap: wrap;
+            background-color: antiquewhite;
+            justify-content: space-between;
+        }
+
+        .double-card{
+            
+        }
+        
+        .brand-partner-frame{
+            width: calc(100%/3);
+            height: 100px;
+            border: 1px solid red;
+        }
+        
+       
+        
 
 
 
 
-/* //////////////////// END MAIN  ////////////////////// */
+
+   /* //////////////////// END MAIN  ////////////////////// */
