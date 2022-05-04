@@ -59,13 +59,11 @@ i{
 .container-small{
     width: 70%;
     margin: auto;
-    background-color: yellow;
 }
 
 .card-container{
     width: 80%;
     margin: auto;
-    background-color: rgb(185, 185, 99);
     height: 200px;
 }
 
@@ -175,8 +173,8 @@ h1{
     }
     
     .fas.fa-arrow-down{
-        font-size: 35px;
-        margin-top: 30px;
+        font-size: 25px;
+        margin-top: 20px;
     }
 
 /* \\\\\\\\\\\\\\\\\ END HEADER \\\\\\\\\\\\\\\\\  */
@@ -198,13 +196,13 @@ h1{
   }
 
 .checkbox{
-          width: 18px;
-          height: 18px;
+          width: 15px;
+          height: 15px;
           border-radius: 50%;
           display: inline-block;
           border: 1px solid lightgrey ;
            vertical-align: middle;
-           margin-right: 3px;
+           margin-right: 5px;
            line-height: 100%;
 }
 
@@ -213,13 +211,13 @@ h1{
 }
 
 .checkbox-text{
-    font-size: 15px;
+    font-size: 13px;
     padding-right: 15px;
 }
 
 .col {
     width: calc( ( 100% / 3 ) - 40px );
-    border: 1px solid red;
+    border: 1px solid lightgray;
     height: 800px;
 }    
 
@@ -232,7 +230,7 @@ h1{
 }    
 
 .sub-type{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid lightgray;
     text-align: center;
     padding: 7px 10px;
     font-size: 13px;
@@ -248,7 +246,7 @@ h1{
 }
 
 .sub-infotext.thin{
-    color: lightgrey;
+    color: grey;
     margin-top: -15px;
 }
 
@@ -282,11 +280,15 @@ h1{
       color: #0000EE;
   }
 
-  .card-container .fa-solid.fa-pen{
+  .card-container .fa-solid.fa-pen, {
     font-size: 9px;
   }
 
-  .card-container .fa-regular.fa-user{
+  .card-container .fa-regular.fa-face-smile{
+      font-size: 10px;
+  }
+
+  .card-container .fa-regular.fa-user, .fa-solid.fa-user-plus{
     font-size: 11px;
   }
 
