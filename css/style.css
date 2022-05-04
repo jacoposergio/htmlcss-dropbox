@@ -435,12 +435,10 @@ h1{
 
         .brand-partner-frame{
             width: calc((100%/7)*2);
-            border: 1px solid red;
         }
 
         .brand-partner-frame.quote{
             width: calc((100%/8)*3);
-            border: 1px solid red;
         }
         
        .brand-partner{
@@ -456,16 +454,13 @@ h1{
        .brand-square{
            width: calc( 100% / 2 );
            height: calc( 100% / 2 );
-           background-color: yellow;
-           border: 1px dotted blue;
+
        }
        
        
        .brand-square{
         width: calc( 100% / 2 );
         height: calc( 100% / 2 );
-        background-color: yellow;
-        border: 1px dotted blue;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -535,6 +530,30 @@ h1{
         .sub-infotext.author{
             margin-top: 30px;
         }
+
+  /* <!-- CALL TO ACTION BANNER -->  */
+        
+      .call-to-action-container{
+          background-color: #b4d0e7;
+          height: 250px;
+      }
+
+      .call-to-action{
+          justify-content: space-between;
+      }
+
+      .call-to-action .btn{
+        font-size: 15px;
+        padding: 5px 40px;
+        color: black;
+        background-color: white ;
+    }
+
+     
+
+
+
+
 
 
    /* //////////////////// END MAIN  ////////////////////// */
