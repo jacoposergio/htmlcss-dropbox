@@ -238,6 +238,7 @@ h1{
 
 .sub-type{
     border-bottom: 1px solid lightgray;
+    font-weight: 600;
     text-align: center;
     padding: 7px 10px;
     font-size: 13px;
