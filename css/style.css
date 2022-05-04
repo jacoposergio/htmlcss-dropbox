@@ -67,6 +67,7 @@ i{
     background-color: rgb(232, 234, 229);
 }
 
+
 .card-container{
     width: 80%;
     margin: auto;
@@ -413,8 +414,13 @@ h1{
     
         .brand-partner-title{
             margin-top: 150px;
+            margin-bottom: 40px;
         }
-
+            
+           .brand-partner-title h2{
+               margin-bottom: 15px;
+           }
+        
         .brand-partner-title a{
             font-size: 12px;
             text-decoration: underline;
@@ -428,13 +434,19 @@ h1{
         }
 
         .brand-partner-frame{
-            width: calc(100%/3);
+            width: calc((100%/7)*2);
+            border: 1px solid red;
+        }
+
+        .brand-partner-frame.quote{
+            width: calc((100%/8)*3);
             border: 1px solid red;
         }
         
        .brand-partner{
         aspect-ratio: 1 / 1;
-       }        
+       }     
+       
 
        .brand-partner-inner-frame{
            flex-wrap: wrap;
@@ -491,7 +503,36 @@ h1{
          .brand-square.topps img{
             width: 45%;
         }   
-       
+        
+        .brand-square.wbr{
+            background-color: #ff1c1c;
+         }
+         
+         .brand-square.hearst-corp{
+            background-color: #b4d0e7;
+         }
+
+         .brand-square.lonely-planet {
+            background-color:  #0d2481;
+         }
+
+         .brand-square.clear-cheannel{
+             background-color: #ffd830;
+         }
+        
+        .designit-quote img{
+            width: 30%;
+            margin-top: 40px;
+        }
+            
+        .designit-quote hr{
+            width: 10%;
+            margin-top: 20px;
+        }
+
+
+
+
 
 
 
