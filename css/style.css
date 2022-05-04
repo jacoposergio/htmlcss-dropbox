@@ -6,6 +6,7 @@
 }
 
 /* COMMON */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -27,9 +28,17 @@ h2{
      font-size: 30px;
 }
 
-/* i{
+h3{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 13px;
+}
+
+i{
     margin-right: 3px;
-} */
+}
 
 /* Buttons */
 .btn {
@@ -230,8 +239,17 @@ h1{
 }
 
 .card .fa-regular.fa-user{
-    margin-right: 5px;
-    font-size: 13px;
+    font-size: 12px;
+}
+
+.sub-infotext{
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.sub-infotext.thin{
+    color: lightgrey;
+    margin-top: -15px;
 }
 
 .sub-infotext a{
@@ -244,8 +262,38 @@ h1{
     margin-bottom: 20px;
 }
 
+.card-container h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 
+ .card-container h4{
+     margin-bottom: 20px;
+ }
 
+ .card-container .btn{
+     font-size: 10px;
+    padding: 7px 30px;
+    background-color: hsl(217deg 100% 50%);
+    margin-bottom: 20px;
+ }
+
+  .card-container .fa-solid.fa-check{
+      color: #0000EE;
+  }
+
+  .card-container .fa-solid.fa-pen{
+    font-size: 9px;
+  }
+
+  .card-container .fa-regular.fa-user{
+    font-size: 11px;
+  }
+
+  
+  .card-container .fa-regular.fa-folder{
+    font-size: 11px;
+  }
 
 
 
