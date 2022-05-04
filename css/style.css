@@ -1,4 +1,5 @@
 /* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +38,7 @@ h4{
 }
 
 .sub-infotext{
+    font-weight: 600;
     font-size: 11px;
     margin-bottom: 20px;
 }
@@ -45,11 +47,11 @@ i{
     margin-right: 3px;
 }
 
-/* Buttons */
 .btn {
     text-decoration: none;
     display: inline-block;
 }
+
 .btn.small {
     color: white;
     padding: 4px 13px;
@@ -135,7 +137,7 @@ nav{
         margin: 0 10px;
     }
 
-/* JUMBOTRON ( BOTTOM-HEADER)  */
+/* JUMBOTRON ( BOTTOM-HEADER )  */
 
 .jumbotron{
     margin-top: 140px;
@@ -297,6 +299,8 @@ h1{
     font-size: 11px;
   }
 
+    /* SUBSCRIPTION CUSTOM  */
+
      .subscription-custom-top{
          margin-top: 40px;
          border: 1px solid lightgray;
@@ -330,7 +334,7 @@ h1{
      
      .subcustom-class .sub-infotext{
         margin-top: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
      }
  
         
@@ -374,6 +378,7 @@ h1{
 
     .partner-finder-button .btn{
     font-size: 12px;
+    font-weight: 600;
     padding: 7px 15px;
     color: black;
     background-color: transparent;
@@ -401,14 +406,12 @@ h1{
 
    .business-card .sub-infotext{
        margin-top: 15px;
-       /* test  */
-       /* font-weight: 700; */
    }
 
         /* BRAND PARTNER  */
     
         .brand-partner-title{
-            margin-top: 150px;
+            margin-top: 120px;
             margin-bottom: 40px;
         }
             
@@ -418,6 +421,7 @@ h1{
         
         .brand-partner-title a{
             font-size: 12px;
+            font-weight: 600;
             text-decoration: underline;
             color: #0000EE;
         }
@@ -538,6 +542,7 @@ h1{
 
       .call-to-action .btn{
         font-size: 15px;
+        font-weight: 600;
         padding: 5px 40px;
         color: black;
         background-color: white ;
@@ -572,40 +577,35 @@ h1{
 
    /* //////////////////// END MAIN  ////////////////////// */
 
-   /* FOOTER   */
+ /* \\\\\\\\\\\\\\\\\ FOOTER \\\\\\\\\\\\\\\\\\  */
 
-   /* Footer */
 
         footer {
             background-color: black;
             color: white;
-            padding: 40px 0;
+            padding: 60px 0;
         }
      
         footer h5 {
-            font-size: 13px;
+            font-size: 12px;
             margin-bottom: 10px;
         }
-       
+        
+        .links-menu a {
+            color: inherit;
+            font-size: 9px;
+         }
+
         .useful-links-columns{
             justify-content: space-between;
             margin-bottom: 40px;
         }
-       
-        .links-menu{
-            width: (100%/5);
-
-        }
-        
+              
         .footer-bottom {
             color: white;
             padding-top: 20px;
         }
        
-        .links-menu a {
-            color: inherit;
-            font-size: 11px;
-         }
 
          footer hr{
              width: 10%;
