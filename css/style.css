@@ -309,7 +309,6 @@ h1{
      }
 
      .subscription-custom-bottom {
-        background-color:yellow
         width: 100%;
         border: 1px solid lightgray;
      }
@@ -335,7 +334,7 @@ h1{
   }
      
      .subcustom-class .sub-infotext{
-        margin-top: 20px;
+        margin-top: 15px;
         margin-bottom: 20px;
      }
  
@@ -347,8 +346,43 @@ h1{
     margin-top: 20px;
     }
 
+    /* <!-- ENTRA IN CONTATTO CON UN PARTNER  -->  */
 
+      .partner-finder {
+        border: 1px solid lightgray;
+        margin-top: 130px;
+     }
 
+    .partner-finder-text{
+        width: calc((100%/5)*2); 
+        padding-left: 25px;
+   }
+  
+   .partner-finder-image{
+      width: calc((100%/5)*3);
+   }
+
+   .partner-finder h3{
+    margin-top: 20px;
+   }
+
+    .partner-finder h4{
+    margin-top: 10px;
+    }
+
+    .partner-finder .sub-infotext{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    }
+
+    .partner-finder-button .btn{
+    font-size: 12px;
+    padding: 7px 15px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black ;
+    }
 
 
 
