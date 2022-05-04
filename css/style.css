@@ -436,6 +436,17 @@ h1{
         aspect-ratio: 1 / 1;
        }        
 
+       .brand-partner-inner-frame{
+         width: 100%;
+       }
+
+       .brand-square{
+           width: calc( 100% / 2 );
+           height: calc( 100% / 2 );
+           background-color: yellow;
+           border: 1px dotted blue;
+       }
+
 
 
 
