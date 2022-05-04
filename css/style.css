@@ -300,33 +300,52 @@ h1{
 
      /* END TIPI DI ABBONAMENTO  */
 
-     /* CONTATTA UFFICIO VENDITE  */
+     /* contatta ufficio vendite  */
 
-     .sales-department-top{
-         margin-top: 20px;
+     .subscription-custom-top{
+         margin-top: 40px;
          border: 1px solid lightgray;
          border-bottom: 0;
      }
 
-     .sales-department-bottom {
+     .subscription-custom-bottom {
         background-color:yellow
         width: 100%;
         border: 1px solid lightgray;
-        height: 200px;
      }
 
-     .col-enterprise{
-          width: calc((100%/4)*3);
-          border: 1px solid green;  
+     .subcustom-class{
+          width: calc((100%/7)*5); 
      }
     
-     .col-salesdep-button{
-        width: calc((100%/4)*1);
-        border: 1px solid green;  
-   }
+     .subcustom-button{
+        width: calc((100%/7)*2);
+     }
 
+   .subcustom-class{
+     padding-left: 20px;
+     }
+       
+     .subcustom-class h3{
+           margin-top: 20px;
+     }
 
-
+     .subcustom-class h4{
+        margin-top: 10px;
+  }
+     
+     .subcustom-class .sub-infotext{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+ 
+        
+    .subcustom-button .btn{
+    font-size: 10px;
+    padding: 7px 45px;
+    background-color: hsl(217deg 100% 50%);
+    margin-top: 20px;
+    }
 
 
 
