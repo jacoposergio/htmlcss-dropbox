@@ -49,6 +49,13 @@ h2{
     background-color: yellow;
 }
 
+.card-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(185, 185, 99);
+    height: 200px;
+}
+
 .flex-container {
     display: flex;
 }
@@ -218,9 +225,18 @@ h1{
     font-size: 13px;
 }
 
-.fa-regular.fa-user{
+.card .fa-regular.fa-user{
     margin-right: 5px;
     font-size: 13px;
 }
+
+
+
+
+
+
+
+
+
 
 /* //////////////////// END MAIN  ////////////////////// */
